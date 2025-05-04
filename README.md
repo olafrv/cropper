@@ -18,9 +18,16 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 cropper.py --input_dir composite/ --output_dir extracts/
+# -----------------------------------------------
+# How to use the GUI?
+# * first, draw the ROIs with the mouse
+# * second, press the ENTER key to save the ROIs
+# * third, press ESC to go to the next image
+# -----------------------------------------------
 # How to exit the GUI?
 # * first, CRTL+C in the terminal 
 # * second, press ESC in the GUI
+# -----------------------------------------------
 ```
 
 ## Why Cropper?
