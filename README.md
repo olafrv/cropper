@@ -17,7 +17,8 @@ cd cropper
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python3 cropper.py --input_dir composite/ --output_dir extracts/
+python3 cropper.py --input_dir composite/ --output_dir extracts/ &
+kill %1
 ```
 
 ## Why Cropper?
