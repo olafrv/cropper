@@ -18,9 +18,9 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 cropper.py --input_dir composite/ --output_dir extracts/
-# Exit?
-# first, CRTL+C in the terminal 
-# Second, press ESC in the GUI
+# How to exit the GUI?
+# * first, CRTL+C in the terminal 
+# * second, press ESC in the GUI
 ```
 
 ## Why Cropper?
