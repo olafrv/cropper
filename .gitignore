@@ -1,4 +1,4 @@
-composites/*
-extracts/*
+composites
+extracts
 venv
 .venv
